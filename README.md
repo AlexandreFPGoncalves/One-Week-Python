@@ -3,6 +3,7 @@
 ## Project Resume
 
 </br>
+
 ##### Integers and Floats
 
 ```sh
@@ -19,6 +20,7 @@ type(5.0)   //<class "float">
 ```
 
 </br>
+
 ##### Basic Operators
 
 ```sh
