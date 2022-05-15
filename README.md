@@ -6,7 +6,7 @@
 ##### Integers and Floats
 
 ```sh
-File: Section3/integersAndFloats.py
+File: Section3_PythonNumbers/integersAndFloats.py
 ```
 
 -   <b>Integers</b> are numbers with <b>no decimal</b> houses like the following examples
@@ -22,7 +22,7 @@ type(5.0)   //<class "float">
 ##### Basic Operators
 
 ```sh
-File: Section3/basicOperators.py
+File: Section3_PythonNumbers/basicOperators.py
 ```
 -   If you calculate an integer and a float <b>the answer will always be a float</b>
 
@@ -65,7 +65,7 @@ print("So your name is " + first_name+ "!")
 #So your name is XXX!
 ```
 
-##### Casting Types
+##### Casting Typess
 -   They change the variable type, int will chop the float decimal off
 
 ```py
@@ -84,4 +84,31 @@ age_in_days = input("How old are you? (in days (years*365))")
 print(f"You are {float(age_in_days) / 365} old!")
 #How old are you? (in days (years*365))7665
 #You are 21.0 old!
+```
+
+##### Comparison Operators 
+
+##### Comparing Floats and Ints
+-   if you compare float and ints they represent the same value
+
+```py
+print(4.00000 == 4)
+#True
+print(4.00001 == 4)
+#False
+```
+
+##### The "in" Operator
+-  The "in" operator looks to see if an items is a member of a sequence.
+
+```py
+"a" in "cat"
+#True
+```
+
+##### Generate random int
+
+```py
+from random import randint
+print(randint(1,6))
 ```
