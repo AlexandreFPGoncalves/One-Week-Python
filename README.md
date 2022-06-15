@@ -114,3 +114,14 @@ print(4.00001 == 4)
 from random import randint
 print(randint(1,6))
 ```
+
+##### Range function
+-   Start is included, Stop is excluded
+-   Yo may not provide the starting point so the range will start at 0
+
+```py
+#range(1,10,2) #Start, Stop and Step
+for num in range(5,10):
+    print(num)
+#5,6,7,8,9
+```
